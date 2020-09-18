@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Ronnie",
+    "apellido": "Quinn",
+    "email": "ronacho07@gmail.com",
+    "password": "$2b$10$FLK0cZbRq.Al3vRRCHlTS.K1Oua7mu4grYKx2qLfIuzBLRoYI0Ks.",
+    "provincia": "06",
+    "role": 1
+  },
+  {
+    "nombre": "Maximiliano",
+    "apellido": "Quinn",
+    "email": "ronacho07@gmail.com",
+    "password": "$2b$10$16LRJOSsD1tdFSMcarrC7.YxfCO/70hKHJzeI/lRDzMJHSpVB7IQC",
+    "provincia": "06",
+    "role": 1
+  }
+]

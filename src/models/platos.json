@@ -1,0 +1,72 @@
+[
+  {
+    "nombre": "Mancuernas de 2Kg - 3Kg y 5Kg",
+    "descripcion": "Precio por kilo 250  ( 500 / 750 / 1250 )",
+    "precio": "250",
+    "descuento": "0",
+    "oldImagen": "plato-1600433476899.jpg",
+    "id": "1",
+    "imagen": "plato-1600433476899.jpg",
+    "recomendado": 1
+  },
+  {
+    "nombre": "Discos de 7,5Kg",
+    "descripcion": "Hierro fundición . Preguntar precio por cantidad. 250 por Kilo",
+    "precio": "1875",
+    "descuento": "0",
+    "oldImagen": "plato-1600433549912.jpg",
+    "id": "3",
+    "imagen": "plato-1600433549912.jpg",
+    "recomendado": 0
+  },
+  {
+    "nombre": "Disco por 10kg",
+    "descripcion": "Precio por kilo 250",
+    "precio": "2500",
+    "descuento": "0",
+    "oldImagen": "plato-1599567922607.PNG",
+    "id": "4",
+    "imagen": "plato-1600433617371.jpg",
+    "recomendado": 0
+  },
+  {
+    "nombre": "Discos de 5Kg",
+    "descripcion": "Precio por kilo 250",
+    "precio": "1250",
+    "descuento": "0",
+    "oldImagen": "plato-1600433527352.jpg",
+    "id": "2",
+    "imagen": "plato-1600433527352.jpg",
+    "recomendado": 1
+  },
+  {
+    "nombre": "Disco de 20 kg",
+    "descripcion": "Precio por kilo 250",
+    "precio": "5000",
+    "descuento": "0",
+    "oldImagen": "plato-1599568915207.PNG",
+    "id": "5",
+    "imagen": "plato-1600433663736.jpg",
+    "recomendado": 1
+  },
+  {
+    "nombre": "Pesa rusa con cara de Mono",
+    "descripcion": "a partir de Noviembre",
+    "precio": "3000",
+    "descuento": "0",
+    "oldImagen": "plato-1599569407133.PNG",
+    "id": "6",
+    "imagen": "plato-1600433713582.jpeg",
+    "recomendado": 0
+  },
+  {
+    "nombre": "Pesa rusa",
+    "descripcion": "8 kg",
+    "precio": "2000",
+    "descuento": "0",
+    "oldImagen": "plato-1599569442304.jpg",
+    "id": "7",
+    "imagen": "plato-1600433749174.jpeg",
+    "recomendado": 1
+  }
+]

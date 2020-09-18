@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <%- include('../partials/head.ejs') %>    
+<body>
+    <main class="container-fluid">
+      <%- include('../partials/navBar.ejs') %>
+      <!--Listado de nuestros productos-->
+      <section class="row">
+        <article class="col-12">
+          <h2 class="display-4 text-white bg-info text-center pt-5">Variedad de productos y nuevos desarrollos</h2>
+        </article>
+
+        </article>
+        <% for(let i= 0; i < platos.length; i++){ %>
+          <article class="col-12 col-md-6 col-lg-3 card p-2 efecto tarjeta">
+            <figure >
+              <img  src="/images/platos/<%= platos[i].imagen%> " class="card-img-top w-100 d-block" alt="Plato">
+            </figure>
+              <% if (platos[i].descuento == 30) { %>
+                <img class="descuento" src="img/promo30.png" alt="Descuento 30%">  
+              <% }else if(platos[i].descuento == 15 ){ %>
+                <img class="descuento" src="img/promo15.png" alt="Descuento 30%">
+              <% } %>
+            <div class="card-body">
+              <h5 class="card-title"><%= platos[i].nombre%></h5>
+              <h5 class="card-title" >$  <%= platos[i].precio%> </h5>
+              <p class="card-text descripcion"><%= platos[i].descripcion%> </p>
+              <a href="#" class="btn btn-primary">Ver detalle</a>
+            </div>
+          </article>
+        <% } %>
+      </section>
+      <%- include('../partials/footer.ejs') %>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('../partials/head.ejs') %>
+<body >
+    <%-include('../partials/navBar.ejs')%>
+    <h1 class="text-center text-success display-5 mt-5 pt-2">Administrador de Platos</h1>
+    <section class="row">
+        <article class="col-12" >
+            <a class="nav-link" href="/admin/create"><ion-icon name="add-circle-outline"></ion-icon>Agregar</a>
+        </article>
+    </section>
+    <table class="table mt-5">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre del Plato</th>
+                <th>Ver</th>
+                <th>Editar</th>
+                <th>Borrar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% platos.forEach(plato => { %>
+                <tr>
+                    <td><%= plato.id %> </td>
+                    <td><%= plato.nombre%> </td>
+                    <td><a href="/admin/detail/<%= plato.id%>"><ion-icon name="eye-outline"></ion-icon></a></td>
+                    <td><a href="/admin/edit/<%= plato.id%>"><ion-icon name="create-outline"></ion-icon></a></td>
+                    <td><a href="/admin/delete/<%= plato.id%>"><ion-icon name="trash-outline"></ion-icon></a></td>
+                </tr>
+            <% }) ; %>
+            
+
+        </tbody>
+    </table>    
+    <%-include('../partials/footer.ejs')%>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
