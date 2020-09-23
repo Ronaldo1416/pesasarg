@@ -2,6 +2,11 @@
     background-color: red;
 }
 */
+.block{
+    height: 100vh;
+    width: 60%;
+    margin-left: 280px;
+}
 .letraRoja{
     color: red !important; 
 }
